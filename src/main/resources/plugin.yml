@@ -1,0 +1,9 @@
+name: BaseChat
+version: '${project.version}'
+main: br.com.rillis.basechat.BaseChat
+api-version: '1.21'
+commands:
+  say:
+    description: Say (Console)
+    usage: /<command> <message>
+    permission: basechat.say
