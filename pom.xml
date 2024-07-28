@@ -6,7 +6,7 @@
 
   <groupId>br.com.rillis</groupId>
   <artifactId>BaseChat</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.21-R1</version>
   <packaging>jar</packaging>
 
   <name>BaseChat</name>

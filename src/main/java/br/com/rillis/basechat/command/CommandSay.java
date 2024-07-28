@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 public class CommandSay implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if ((sender instanceof Player && sender.isOp()) || sender instanceof ConsoleCommandSender){
+        if ((sender instanceof Player && sender.isOp()) || sender instanceof ConsoleCommandSender || sender.hasPermission("basechat.say")){
             for (Player p : sender.getServer().getOnlinePlayers()) {
                 p.sendMessage(ChatColor.LIGHT_PURPLE + ""+ ChatColor.BOLD + "[CONSOLE] "+ChatColor.LIGHT_PURPLE+ String.join(" ", args)+ ChatColor.RESET);
                 p.playSound(p.getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP , 1, 1);
