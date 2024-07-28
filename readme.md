@@ -10,7 +10,7 @@ Creative mode players will have their name displayed in italic.
 Permission: `basechat.say` or OP
 
 ### Disclaimer
-This plugin is made for 1.21 Spigot and we don't have plans to update it to newer or older versions. Feel free to fork and update it yourself. <br>This plugin can be used in any server.
+At his time, we **don't** have plans to update it to newer or older versions. Feel free to fork and update it.
 <br>
 <br>
 Check our other plugins [**here**](https://github.com/orgs/rlsmine/repositories).<bR>
