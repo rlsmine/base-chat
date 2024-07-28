@@ -13,4 +13,5 @@ Permission: `basechat.say` or OP
 This plugin is made for 1.21 Spigot and we don't have plans to update it to newer or older versions. Feel free to fork and update it yourself. <br>This plugin can be used in any server.
 <br>
 <br>
+Check our other plugins [**here**](https://github.com/orgs/rlsmine/repositories).<bR>
 Made by [**rillis**](https://github.com/rillis).
